@@ -57,3 +57,7 @@ function newNonPlayableCharacter(x, y) {
         stop: stop
     }
 }
+
+function delay(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
